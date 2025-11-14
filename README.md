@@ -137,6 +137,8 @@ Forwarding from [::1]:8080 -> 8080
 
 Visit `localhost:8080` you will see the Hello World welcome page.
 
+<img title="Welcome page" alt="hello-app:1.0" src="./images/hello-world.png">
+
 ## Next Steps
 
 As mentioned before Kubernetes is an orchestration platform used to deploy containerized applications. We hope you now better understand how one can deploy applications to Kubernetes.
