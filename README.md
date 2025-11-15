@@ -39,7 +39,7 @@ Not sure what to do next? 😅  Check out https://kind.sigs.k8s.io/docs/user/qui
 
 ## Validate
 
-Verify the connectivity with the Kubernete cluster and the Kubernetes API by issuing the CLI.
+Verify the connectivity with the Kubernete cluster and the Kubernetes API by using the Command Line Interface(CLI).
 
 `` $ kubectl cluster-info --context kind-kind``
 
@@ -118,7 +118,7 @@ service/web configured
 ```
 ## Expose the Application
 
-Now that the application, web, is deployed you can access the application by exposing the nodePort through port forwarding. TYou'll need the container name.
+Now that the application, web, is deployed you can access the application by exposing the nodePort through port forwarding. You'll need the container name.
 
 To get the container name, issue the following command:
 
