@@ -16,7 +16,7 @@ To complete this tutorial, you will need to install the following.
 - [Docker](https://www.docker.com/products/docker-desktop/) 
 - [kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/) 
-- [Visual Studio Code](https://code.visualstudio.com/download)  or command line interface. 
+- [Visual Studio Code](https://code.visualstudio.com/download)  or Command Line Interface(CLI). 
 
 ### Create a cluster
 
@@ -119,7 +119,7 @@ service/web configured
 ```
 ## Expose the Application
 
-Now that the application, web, is deployed you can access the application by exposing the nodePort through port forwarding. You'll need the container name.
+Now that the application, web, is deployed you can access the application by exposing the nodePort through port forwarding. You will need the container name.
 
 To get the container name, issue the following command:
 
@@ -128,7 +128,7 @@ $ PODNAME=$(kubectl get pods --template '{{range .items}}{{.metadata.name}}{{end
 ```
 Now that you have the container name, start the port forwarding with the container to expose the port to the local network.
 
-Issue the `kubectl` command to access the service:
+Issue the `kubectl` command to access the application:
 
 ```shell
 $ kubectl port-forward $PODNAME 8080:8080
