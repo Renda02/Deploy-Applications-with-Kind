@@ -7,6 +7,7 @@
 - Docker image(s) written to run systemd, Kubernetes, etc.
 - kubetest integration also built on these packages (WIP).
 
+This tutorial teaches you how to deploy an application with kind using a container image from Google Container Registry (GCR). You will learn how to create a cluster, add a YAML configuration file, and use port forwarding to access your application in your browser.
 
 ## Prerequisites
 
